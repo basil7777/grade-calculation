@@ -8,27 +8,27 @@ int main()
   {
     printf("\ngrade is A+");
   }
-  if (mark>=80 && mark<=89)
+  else if (mark>=80 && mark<=89)
   {
     printf("\ngrade is A");
   }
-  if(mark>=70 && mark<=79)
+   else if(mark>=70 && mark<=79)
   {
     printf("\ngrade is B+");
   }
-  if(mark>=60 && mark<=69)
+  else if(mark>=60 && mark<=69)
   {
     printf("\ngrade is B");
   }
-  if(mark>=50 && mark<=59)
+  else if(mark>=50 && mark<=59)
   {
     printf("\ngrade is C+");
   }
-  if(mark>=40 && mark<=49)
+  else if(mark>=40 && mark<=49)
   {
     printf("\ngrade is C");
   }
-  if(mark<40)
+  else(mark<40)
   {
     printf("\ngrade is D. next time you should improve your marks.");
   }
